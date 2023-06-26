@@ -1,0 +1,18 @@
+{
+  "name": "@jsse/prettier-config",
+  "description": "Prettier config ~ jsse",
+  "version": "0.1.0",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "index.json"
+  ],
+  "main": "index.json",
+  "license": "MIT",
+  "author": {
+    "name": "Jesse K. Rubin",
+    "email": "jessekrubin@gmail.com"
+  },
+  "repository": "jessekrubin/prettier-config"
+}
