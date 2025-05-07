@@ -1,18 +1,37 @@
 {
   "name": "@jsse/prettier-config",
-  "description": "Prettier config ~ jsse",
+  "type": "module",
   "version": "0.1.0",
-  "publishConfig": {
-    "access": "public"
-  },
-  "files": [
-    "index.json"
-  ],
-  "main": "index.json",
-  "license": "MIT",
+  "description": "prettier config ~ jsse",
   "author": {
     "name": "Jesse K. Rubin",
     "email": "jessekrubin@gmail.com"
   },
-  "repository": "jessekrubin/prettier-config"
+  "license": "MIT",
+  "homepage": "https://github.com/jessekrubin/prettier-config#README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jessekrubin/prettier-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jessekrubin/prettier-config/issues"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./package.json": "./package.json"
+  },
+  "main": "index.json",
+  "types": "index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "index.d.ts",
+    "index.js"
+  ],
+  "devDependencies": {
+    "@jsse/eslint-config": "^0.3.6",
+    "eslint": "^9.26.0",
+    "prettier": "^3.5.3"
+  }
 }

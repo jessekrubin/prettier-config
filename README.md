@@ -1,5 +1,7 @@
 # `@jsse/prettier-config`
 
+[![npm](https://img.shields.io/npm/v/@jsse/prettier-config.svg)](https://npmjs.com/package/@jsse/prettier-config)
+
 prettier config
 
 ## Install
@@ -18,6 +20,6 @@ Add to `package.json`:
 
 ```json
 {
-    "prettier": "@jsse/prettier-config"
+  "prettier": "@jsse/prettier-config"
 }
 ```
