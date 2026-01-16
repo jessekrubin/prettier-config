@@ -7,13 +7,7 @@ export default {
   trailingComma: "all",
   endOfLine: "lf",
   proseWrap: "always",
-  objectWrap: "collapse",
   overrides: [
-    {
-      files: ["**/jsr.json"],
-      options: {
-        parser: "json-stringify",
-      },
-    },
+    { files: ["**/jsr.json"], options: { parser: "json-stringify" } },
   ],
 };
