@@ -1,0 +1,19 @@
+version: 2
+updates:
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "npm"
+    directory: "/"
+    registries:
+      - npm-github
+    schedule:
+      interval: "weekly"
+    cooldown:
+      default-days: 2
+      exclude:
+        - "@jsse/*"
+    ignore:
+      - dependency-name: "@types/node"
+        versions: [">=25"]

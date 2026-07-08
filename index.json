@@ -6,13 +6,6 @@
   "endOfLine": "lf",
   "proseWrap": "always",
   "overrides": [
-    {
-      "files": [
-        "**/jsr.json"
-      ],
-      "options": {
-        "parser": "json-stringify"
-      }
-    }
+    { "files": ["**/jsr.json"], "options": { "parser": "json-stringify" } }
   ]
 }
