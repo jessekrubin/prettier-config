@@ -1,32 +1,32 @@
 {
   "name": "@jsse/prettier-config",
-  "type": "module",
   "version": "1.1.0",
   "description": "prettier config ~ jsse",
+  "homepage": "https://github.com/jessekrubin/prettier-config#README.md",
+  "bugs": {
+    "url": "https://github.com/jessekrubin/prettier-config/issues"
+  },
+  "license": "MIT",
   "author": {
     "name": "jesse k. rubin",
     "email": "jessekrubin@gmail.com"
   },
-  "license": "MIT",
-  "homepage": "https://github.com/jessekrubin/prettier-config#README.md",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jessekrubin/prettier-config.git"
   },
-  "bugs": {
-    "url": "https://github.com/jessekrubin/prettier-config/issues"
-  },
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "types": "dist/index.d.mts",
   "exports": {
     ".": "./dist/index.mjs",
     "./package.json": "./package.json"
   },
-  "types": "dist/index.d.mts",
   "publishConfig": {
     "access": "public"
   },
-  "files": [
-    "dist"
-  ],
   "scripts": {
     "dev": "tsdown && pnpm typecheck && pnpm lint && pnpm fmtc && publint",
     "lint": "eslint",
@@ -37,6 +37,16 @@
     "release": "bumpp",
     "prepublishOnly": "pnpm run build"
   },
+  "devDependencies": {
+    "@jsse/eslint-config": "^0.9.2",
+    "@jsse/tsconfig": "^0.5.2",
+    "@types/node": "^24.13.2",
+    "eslint": "^10.6.0",
+    "prettier": "^3.6.2",
+    "publint": "^0.3.21",
+    "tsdown": "^0.22.3",
+    "typescript": "^6.0.3"
+  },
   "peerDependencies": {
     "@prettier/plugin-oxc": "^0.2.0",
     "prettier": "^3.8.0"
@@ -45,15 +55,5 @@
     "@prettier/plugin-oxc": {
       "optional": true
     }
-  },
-  "devDependencies": {
-    "@jsse/eslint-config": "^0.9.1",
-    "@jsse/tsconfig": "^0.5.2",
-    "@types/node": "^24.13.2",
-    "eslint": "^10.6.0",
-    "prettier": "^3.6.2",
-    "publint": "^0.3.21",
-    "tsdown": "^0.22.3",
-    "typescript": "^6.0.3"
   }
 }
