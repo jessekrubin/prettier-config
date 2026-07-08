@@ -1,0 +1,10 @@
+{
+  "extends": "@jsse/tsconfig",
+  "compilerOptions": {
+    "target": "esnext",
+    "lib": ["es2023"],
+    "types": ["node"],
+    "noEmit": true
+  },
+  "include": ["src"]
+}

@@ -19,7 +19,5 @@ yarn add -D prettier @jsse/prettier-config
 Add to `package.json`:
 
 ```json
-{
-  "prettier": "@jsse/prettier-config"
-}
+{ "prettier": "@jsse/prettier-config" }
 ```
