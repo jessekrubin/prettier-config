@@ -22,21 +22,27 @@ export default {
     // way to have prettier kinda ignore things.
     {
       files: [
-        // lock files et al
+        // package managers & lock files et al
         "**/pnpm-lock.yaml",
+        "**/*.yarm/**",
         "**/yarn.lock",
         "**/package-lock.json",
         "**/.pnp.*",
+        "**/.cache/**",
         // documentation
         "**/CHANGELOG*.md",
         "**/LICENSE*",
         // build artifacts
         "**/build/**",
         "**/dist/**",
+        "**/.heft/**",
+        "**/.rush/**",
+        "**/.next/**",
         "**/*.min.*",
         "**/.changeset/**",
         "**/.idea/**",
         "**/.output/**",
+        "**/.wireit/**",
         "**/__snapshots__/**",
         "**/auto-import?(s).d.ts",
         "**/coverage/**",
