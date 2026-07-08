@@ -48,13 +48,13 @@ export default {
         "**/coverage/**",
         "**/node_modules/**",
         "**/output/**",
-        "**/*.bak",
 
         // tmp/scratch/bak dirs
+        "**/*.bak",
+        "**/*.bak/**",
         "**/.temp/**",
         "**/.tmp/**",
         "**/tmp/**",
-        "**/temp/**",
         "**/temp/**",
         "**/_temp/**",
         "**/_tmp/**",
