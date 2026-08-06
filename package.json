@@ -38,13 +38,13 @@
     "prepublishOnly": "pnpm run build"
   },
   "devDependencies": {
-    "@jsse/eslint-config": "^0.9.5",
+    "@jsse/eslint-config": "^0.9.16",
     "@jsse/tsconfig": "^0.5.2",
-    "@types/node": "^24.13.2",
-    "eslint": "^10.7.0",
-    "prettier": "^3.9.5",
-    "publint": "^0.3.21",
-    "tsdown": "^0.22.7",
+    "@types/node": "^24.13.3",
+    "eslint": "^10.8.0",
+    "prettier": "^3.9.6",
+    "publint": "^0.3.23",
+    "tsdown": "^0.22.14",
     "typescript": "^6.0.3"
   },
   "peerDependencies": {
@@ -54,6 +54,13 @@
   "peerDependenciesMeta": {
     "@prettier/plugin-oxc": {
       "optional": true
+    }
+  },
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "^11.20.0",
+      "onFail": "download"
     }
   }
 }
