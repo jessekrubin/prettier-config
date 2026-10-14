@@ -9,7 +9,7 @@ function resolvePlugin(pkg: string): string | undefined {
   }
 }
 
-export default {
+const config: Config = {
   semi: true,
   singleQuote: false,
   trailingComma: "all",
@@ -67,4 +67,6 @@ export default {
   plugins: ["@prettier/plugin-oxc"]
     .map((plugin) => resolvePlugin(plugin))
     .filter((plugin): plugin is string => plugin !== undefined),
-} satisfies Config;
+};
+
+export default config;
