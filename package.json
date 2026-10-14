@@ -38,13 +38,13 @@
     "prepublishOnly": "pnpm run build"
   },
   "devDependencies": {
-    "@jsse/eslint-config": "^0.9.19",
+    "@jsse/eslint-config": "^0.9.28",
     "@jsse/tsconfig": "^0.6.1",
     "@types/node": "^24.13.3",
-    "eslint": "^10.8.1",
-    "prettier": "^3.9.6",
+    "eslint": "^10.12.0",
+    "prettier": "^3.9.10",
     "publint": "^0.3.23",
-    "tsdown": "^0.23.0",
+    "tsdown": "^0.23.1",
     "typescript": "^6.0.3"
   },
   "peerDependencies": {

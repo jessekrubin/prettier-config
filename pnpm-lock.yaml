@@ -171,7 +171,7 @@ importers:
         version: 0.2.3
     devDependencies:
       '@jsse/eslint-config':
-        specifier: ^0.9.19
+        specifier: ^0.9.28
         version: 0.9.28(@typescript-eslint/typescript-estree@8.71.2(typescript@6.0.3))(@typescript-eslint/utils@8.71.2(eslint@10.12.0)(typescript@6.0.3))(eslint@10.12.0)(typescript@6.0.3)
       '@jsse/tsconfig':
         specifier: ^0.6.1
@@ -180,16 +180,16 @@ importers:
         specifier: ^24.13.3
         version: 24.19.2
       eslint:
-        specifier: ^10.8.1
+        specifier: ^10.12.0
         version: 10.12.0
       prettier:
-        specifier: ^3.9.6
+        specifier: ^3.9.10
         version: 3.9.10
       publint:
         specifier: ^0.3.23
         version: 0.3.25
       tsdown:
-        specifier: ^0.23.0
+        specifier: ^0.23.1
         version: 0.23.1(publint@0.3.25)(typescript@6.0.3)
       typescript:
         specifier: ^6.0.3
